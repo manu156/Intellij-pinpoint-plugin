@@ -1,1 +1,1 @@
-rootProject.name = "Intellij-pinpoint-plugin"
+rootProject.name = "demo"
