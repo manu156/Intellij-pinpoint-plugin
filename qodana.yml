@@ -3,7 +3,8 @@
 
 version: 1.0
 profile:
-  name: qodana.recommended
+  name: qodana.starter
+  # todo : change it to qodana.recommended
 exclude:
   - name: All
     paths:

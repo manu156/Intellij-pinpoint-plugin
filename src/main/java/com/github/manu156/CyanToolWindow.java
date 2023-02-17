@@ -11,6 +11,10 @@ public class CyanToolWindow {
     private JLabel currentTime;
     private JLabel timeZone;
     private JPanel myToolWindowContent;
+    private JComboBox serverSelector;
+    private JTextPane textPane1;
+    private JTextPane textPane2;
+    private JTextPane textPane3;
 
     public CyanToolWindow(ToolWindow toolWindow) {
         hideToolWindowButton.addActionListener(e -> toolWindow.hide(null));
@@ -38,6 +42,7 @@ public class CyanToolWindow {
         str_gmt_Offset = (gmt_Offset > 0) ? "GMT + " + str_gmt_Offset : "GMT - " + str_gmt_Offset;
         timeZone.setText(str_gmt_Offset);
 //        timeZone.setIcon(new ImageIcon(getClass().getResource("/toolWindow/Time-zone-icon.png")));
+
     }
 
     public JPanel getContent() {
