@@ -3,7 +3,7 @@ plugins {
     id("org.jetbrains.intellij") version "1.10.1"
 }
 
-group = "com.example"
+group = "com.github156.manu156"
 version = "1.0-SNAPSHOT"
 
 repositories {
